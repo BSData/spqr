@@ -1,4 +1,4 @@
-SPQR
+SPQR by Warlord Games
 ====
 
 [![GitHub release](https://img.shields.io/github/release/BSData/spqr.svg?style=flat-square)](https://github.com/BSData/spqr/releases/latest)
