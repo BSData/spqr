@@ -256,9 +256,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="49a7-73c5-ab41-788a" name="Javelin" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1768,5 +1765,123 @@ Remember, you cannot re-roll a re-roll, so if a unit has more Parries than an en
 A Hit and Run unit may only perform this free Move action once every Turn but may attempt the Bravery check to do it multiple times.</description>
     </rule>
     <rule id="df45-8aa5-f202-c313" name="Phalanx" hidden="false"/>
+    <rule id="d121-5153-7fd5-6755" name="Trained Archers" hidden="false">
+      <description>The archers of Athens had better training than most Greeks with the Bow. They do not suffer from the Mediocre Archery rule. However, an Athenian warband may never have more units of Archers than it hasunits of Hoplites. </description>
+    </rule>
+    <rule id="ceb7-ab38-87ba-6117" name="Blight" hidden="false">
+      <description>Before a battle begins, the British player make select any one Hero in the enemy warband. That Hero will suffer a -1 penalty to any characteristic of the British player’s choosing for the rest of the battle.</description>
+    </rule>
+    <rule id="5341-396e-9f25-19e8" name="Druidic Presence" hidden="false">
+      <description>A Druid may not be challenged by an enemy Hero (though he is free to issue his own challenge). In addition, any unit the Druid leads may re-roll any of its own Melee Dice in close combat.</description>
+    </rule>
+    <rule id="ba03-3058-8c6e-7086" name="Battle Platform" hidden="false">
+      <description>A Hero may start the battle on board a Chariot, effectively becoming one unit. While the Hero is mounted, the unit uses the Chariot’s characteristics for movement, close combat and being attacked by ranged weapons, but the Hero performs his own actions, may use any Talents, and the Chariot uses his Bravery score.
+If the Chariot is attacked in any way, any damage caused is deducted from the Chariot’s Wounds. If the Chariot is destroyed, roll a dice; the Hero loses this many Wounds. If he still has Wounds remaining, the Hero is placed on the table within 3&quot; of the Chariot’s last position. The Hero may leave the Chariot at any time simply by performing a Move or Melee action, and may board it again the same way. However, the Chariot may not perform more than one Move or Melee action in any Turn in which he leaves or boards it.</description>
+    </rule>
+    <rule id="da1f-2fca-66a9-3aa7" name="Property of a Hero" hidden="false">
+      <description>A Chariot must be assigned to a specific Hero (not a Druid) before the battle starts, and each Hero may only have one Chariot. If a Chariot cannot be given to a Hero, it may not be used. During the battle, no other model may use the Chariot except the Hero it was assigned to.</description>
+    </rule>
+    <rule id="0cf8-e12d-ef44-6b80" name="Dog Handlers" hidden="false">
+      <description>This unit must have at least one Tribesman Dog Handler for every four Hounds or part thereof at the start of a battle, and may not have more Tribesmen Dog Handlers than Hounds.</description>
+    </rule>
+    <rule id="e133-f55f-e03e-d515" name="Let Slip the Dogs of War" hidden="false">
+      <description>So long as at least one Hound remains in the unit, Hunting Dogs increase their Move to 10&quot;
+when performing a Melee action.</description>
+    </rule>
+    <rule id="70f1-e570-840a-f45b" name="Skyclad" hidden="false">
+      <description>If this unit does not take any armour other than a Large Shield and their models are wearing no clothing at all, they gain a +1 bonus to Melee checks.</description>
+    </rule>
+    <rule id="2f53-e419-6ce5-76ed" name="Strength in Numbers" hidden="false">
+      <description>This unit gains much of its courage from its numbers. If the unit has 10 or more models, it gains a +1 bonus to Bravery checks. If it numbers 20 or more models, it gains a +2 bonus to Bravery checks.</description>
+    </rule>
+    <rule id="7239-74fa-2329-8795" name="Wild Charge" hidden="false">
+      <description>When this unit charges it gains a bonus Melee Dice for each model in the unit, regardless of whether they get into contact with an enemy model.</description>
+    </rule>
+    <rule id="d9a4-2209-c00a-078f" name="Hero of Rome" hidden="false">
+      <description>Every time the Hero receives a bonus characteristic from going up a Level, roll a dice. On a 1, he increases no characteristic at all! On a 5 or 6, however, he may increase two characteristics by +1.</description>
+    </rule>
+    <rule id="2c39-8c21-b39b-ab87" name="Shield Wall" hidden="false">
+      <description>If all the models in this unit are in base contact with one another and the unit numbers at least ten models, they gain a bonus Parry.</description>
+    </rule>
+    <rule id="10e2-60d7-2ce4-1ef8" name="Testudo" hidden="false">
+      <description>To form a Testudo, all members of the unit must be in contact with one another and must number at least ten models. Then, the unit must perform a Special action. From this point, the unit’s Move is halved but it may re-roll all Armour checks made to defend against ranged attacks.
+A Testudo is disbanded immediately by the unit performing a Melee action or any model in the unit being out of contact with at least two other models in the same unit. This may be done as a Move action on the part of the player or by his opponent causing casualties.</description>
+    </rule>
+    <rule id="ce0a-a266-7915-5d31" name="Falx" hidden="false">
+      <description>A Two-handed Sword carried by Dacian Heroes will actually be a falx, a long blade with a pronounced curve that allowed it to slice past shields. An enemy with a shield will lose one Parry when this Hero carries a Two-handed Sword and performs a Melee action against them.</description>
+    </rule>
+    <rule id="904d-b6aa-1ddf-06f7" name="Kontos" hidden="false">
+      <description>When this unit charges, their Long Spears gain the Lethal 3 special rule for the duration of that Melee action, rather than the normal Lethal 2.</description>
+    </rule>
+    <rule id="aa53-33e9-d2dd-ace7" name="German Wives" hidden="false">
+      <description>German Wives add to the number of models in the unit, but only grant bonuses in respect to Melee Dice and Bravery. They are always the first to be removed as casualties (likely running away when the enemy get too close rather than actually being cut down).</description>
+    </rule>
+    <rule id="56ed-b635-e13a-836e" name="Flaming Javelins" hidden="false">
+      <description>This unit may ignite bundles of grass tied to their javelins before throwing them as part of a normal Shoot action. If the target is using the Phalanx or Shield Wall special rules, it must make a Bravery check after all other effects of the attack have been resolved. If this check is failed, the enemy unit will lost the benefit of the Phalanx or Shield Wall rule for the rest of the Turn.</description>
+    </rule>
+    <rule id="2abb-ca52-df27-53d8" name="Infiltrators" hidden="false">
+      <description>When all forces have been deployed but before the first turn begins, this unit that has not purchased Linothoraxes or Cuirasses may perform two Move actions.</description>
+    </rule>
+    <rule id="0cee-4ba0-713e-78d0" name="Flight of Cranes" hidden="false">
+      <description>If this unit charges an enemy unit and inflict more casualties than they suffer in that action, they may perform an immediate and free Move or Melee action without fleeing from combat. Simply move them out of contact with any remaining enemy.</description>
+    </rule>
+    <rule id="0c5d-5630-65ef-69b8" name="Big But Cowardly" hidden="false">
+      <description>If a War Elephant loses a quarter or more of its remaining Wounds in a single Turn, it must make a Bravery check.
+If it fails, it must perform two Move actions in its next Phase, moving directly away from the unit that caused the loss of these Wounds as far as possible, fleeing combat if necessary. If this movement takes the War Elephant into contact with another unit (including a friendly unit!) this will count as a Melee action and a charge!
+At the end of its next Phase, the War Elephant must make another Bravery check. If this is successful, it will act normally. If not, it will carry on moving away from the last unit that caused it to lose Wounds, taking another Bravery check in its next Phase. If the War Elephant has been moved into close combat, it will not take this Bravery check until it has defeated the unit it is fighting (unless it loses a quarter or more of its remaining Wounds in a single Turn, when the whole process starts again).</description>
+    </rule>
+    <rule id="1840-0c76-81b9-8a3b" name="Terror Weapon" hidden="false">
+      <description>Any unit charged by a War Elephant must make an immediate Will to Fight check. A Cavalry unit charged by a War Elephant must re-roll this check if it passes the first time, unless it is also a War Elephant.</description>
+    </rule>
+    <rule id="c007-15e3-05b5-480c" name="Turret" hidden="false">
+      <description>A War Elephant equipped with a Turret has a handful of warriors riding it, equipped with bows and javelins which they use to rain missiles down upon enemies. So long as the War Elephant is not in close combat, it gains a free Shoot action every Phase, during which it can make two attacks with either Bows or Javelins. It carries enough Javelins to last the entire battle.</description>
+    </rule>
+    <rule id="ecc8-98dc-e7b1-d2c2" name="Put to the Test" hidden="false">
+      <description>At the end of a battle, after all casualties have been determined, any Immortals that have been permanently killed will be automatically replaced by any surviving Levies in the warband on a one-for-one basis. This may not take the Immortals unit above its original size at the start of the previous battle.</description>
+    </rule>
+    <rule id="a62b-fba0-db8b-16d8" name="Spara" hidden="false">
+      <description>Spara were large wicker shields that Levies often carried to create temporary strongpoints on the battlefield. They are treated as Large Shields but if the unit is not involved in close combat and performs two consecutive Special actions the Spara can instead be used as a makeshift barricade. The unit will benefit from Heavy Cover against all ranged attacks and as being in cover from enemies moving into close combat. These benefits are lost as soon as the Levy unit moves or after the first round of close combat.</description>
+    </rule>
+    <rule id="95cc-64a4-6364-efe4" name="For Sparta!" hidden="false">
+      <description>This unit may re-roll all failed Will to Fight checks.</description>
+    </rule>
+    <rule id="23d1-8035-c74b-74ba" name="Rebellious" hidden="false">
+      <description>If this unit is ever more than 12&quot; away from a Spartan Hoplite or Hero at the end of a Turn or is within Line of Sight of a Spartan Hero removed as a casualty, it must make a Bravery check.
+If it succeeds, the whole unit is immediately removed as a casualty as it flees the battlefield!
+In addition, Helots that leave the battlefield due to a failed Will to Fight check in a campaign are treated as though they were casualties. The Spartan player must roll for each Helot as though they were injured to see if they return to his warband!</description>
+    </rule>
+    <rule id="cf62-bf1b-f01a-ad38" name="Passionate Bond" hidden="false">
+      <description>If one member of the Sacred Band is removed as a casualty within Line of Sight of the other, the survivor will become Blood Drunk, as described on page 46.</description>
+    </rule>
+    <rule id="3af0-1473-fc01-2aa9" name="Sacred Vow" hidden="false">
+      <description>A Sacred Band is always bought as a pair, at a base cost of 100 Denarii for one Eromenos and one Erastes. Options may be purchased for either one or both members of the Sacred Band, with the cost being doubled if chosen for both.</description>
+    </rule>
+    <rule id="4804-388e-0058-c3be" name="Deadly Accurate" hidden="false">
+      <description>A Balearic Slinger unit may re-roll any ranged attack made with a sling that misses its target.</description>
+    </rule>
+    <rule id="65f6-ef91-c3d1-e1da" name="Cretan Archer" hidden="false">
+      <description>Cretan Archers were known to cause disruption in camps, stealing items and offering to ‘protect’ the belongings of other soldiers. When used as Mercenaries, Cretan Archers will steal an additional 10% of their value from the Denarii you receive from the battle, for a total of 20%.</description>
+    </rule>
+    <rule id="cbab-94ea-7875-4972" name="Battle Cry" hidden="false">
+      <description>When a Gaesatae unit charges an enemy that it outnumbers, the enemy must succeed in a Bravery check or immediately perform a Move action away from the Gaesatae. This will count as fleeing from close combat (see page 13). Enemy Heroes or units led by Heroes are immune to the Battle Cry.</description>
+    </rule>
+    <rule id="f378-cccc-3ddc-609e" name="Poisoned Spears" hidden="false">
+      <description>A Gaesatos that takes the Poisoned Spear option will gain the Lethal 2 rule for all his close combat attacks.</description>
+    </rule>
+    <rule id="2afe-5308-ccaa-a007" name="Parthian Shot" hidden="false">
+      <description>After successfully using the Hit and Run rule, Parthian Horse Archers may immediately perform two free Shoot actions.</description>
+    </rule>
+    <rule id="0435-4726-63f7-e924" name="No Equal on Horseback" hidden="false">
+      <description>When fighting against an enemy with the Cavalry type in close combat, Numidian Cavalrymen may re-roll any of their own Melee Dice.</description>
+    </rule>
+    <rule id="aa6f-7065-6310-ebea" name="Finest Horsemen" hidden="false">
+      <description>Thessalian Cavalrymen may double their Move score for one action in every Phase as normal. However, if they pass a Bravery check, they may double their Move score for a second action.</description>
+    </rule>
+    <rule id="9afc-e612-d53e-f36b" name="The Original Model" hidden="false">
+      <description>When successfully performing a Move action for a Hit and Run, Thracian Peltasts may first perform an immediate and free Shoot action with Javelins at the enemy unit that attacked them. After this Shoot action has been performed, they take a Move action as normal.</description>
+    </rule>
+    <rule id="a675-7972-3d38-5ee9" name="Rhomphaia" hidden="false">
+      <description>The blades used by the Thracians were not simple swords. Instead, they were mounted upon a short pole which imparted considerable momentum when swung. All close combat attacks made by Thracian Warriors gain the Lethal 1 rule.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
