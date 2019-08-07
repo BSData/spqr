@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4150-e0a1-89a9-be44" name="Mercenaries" revision="3" battleScribeVersion="2.02" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="fb06-eaff-35a5-1931" name="Balearic Slinger" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5493-1353-f532-e2e9" name="Balearic Slinger" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+3</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+2</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+1</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8379-8d21-9b6e-299e" name="Deadly Accurate" hidden="false" targetId="4804-388e-0058-c3be" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5a7-7f43-8c65-92d6" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="2967-2af9-9073-9cfe" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9c30-bc16-aa04-b85f" name="Balearic Slinger" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8640-34ab-bcfc-1ee2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e59-291a-fe2d-b302" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ab46-75d9-1cca-bb6f" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5693-139f-eb5e-1c1d" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7606-8657-d5d4-32ae" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7bd1-a503-ec7c-0af0" name="Buckler" hidden="false" collective="true" targetId="ead4-51db-c04e-178d" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0976-d133-ac84-819f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c627-665a-33c7-5203" name="Sling" hidden="false" collective="true" targetId="4484-45c9-9905-740a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e6-99e4-ff74-c858" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa02-3a42-18a1-fd86" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5568-e5b3-1b11-ade0" name="Cretan Archer" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d083-fbb9-6943-faad" name="Cretan Archer" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+3</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+2</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+1</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d29c-ff42-ad07-b2ac" name="Protection Rackets" hidden="false">
+          <description>When used as Mercenaries, Cretan Archers will steal an additional 10% of their value from the
+Denarii you receive from the battle, for a total of 20%.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a145-4902-d822-0ea3" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="e2e1-52b5-719d-948c" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fe79-db94-5d82-ce8f" name="Cretan Archer" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1c-e4f9-62e7-ce22" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a421-cc06-0331-2a93" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1698-7319-4c22-c77d" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+            <categoryLink id="25d4-cd03-4a47-2844" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0278-0c4b-0184-3f16" name="Dagger" hidden="false" collective="true" targetId="e755-87d2-d778-0059" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1ef-ea3e-76cb-4b38" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fde7-cd0d-30d2-b2f4" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="739e-3f65-82bb-6173" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1956-27d6-cd11-eccf" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eb69-4d27-bf8c-28e2" name="Bow" hidden="false" collective="true" targetId="642e-934f-35b8-8da4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-06a7-006a-90ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f2b-52e2-9d7d-de42" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9bc6-8130-c913-b19c" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db60-7172-53b3-27c0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cce9-abfe-0657-a1b7" name="Gaesatos" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3e90-47a5-a62c-43f4" name="Gaesatos" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+0</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+3</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">3D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+1</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+3</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="796e-05de-63eb-c933" name="Battle Cry" hidden="false" targetId="cbab-94ea-7875-4972" type="rule"/>
+        <infoLink id="51ae-e795-ff61-6f38" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+        <infoLink id="7409-b350-a80f-fad3" name="Poisoned Spears" hidden="false" targetId="f378-cccc-3ddc-609e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ec8a-9a92-c09d-435b" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="fa7b-5752-e0c2-98d7" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0732-ff3d-7ade-10a9" name="Gaesatos" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="851e-1ee2-032e-f1d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395c-6e97-5778-476d" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0f78-7855-8bd2-ee8c" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5dc8-aa8e-76b7-8a82" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7e-dd0c-8153-2346" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f4-67ab-3a94-219b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a3f7-f5f1-1a6a-daaf" name="Short Spear" hidden="false" collective="true" targetId="2bf1-3aa5-2811-17eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d31c-2473-f2db-ff64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a053-751a-7b2f-311a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d226-2c6f-be61-c06b" name="Poisoned Spear" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a0-2e71-fca1-bc52" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d90-d608-6705-ed11" name="Greek Hoplite" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="881f-de20-3703-b555" name="Greek Hoplite" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+1</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+0</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+0</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6809-2252-4407-fbee" name="Phalanx" hidden="false" targetId="df45-8aa5-f202-c313" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b24-d967-82bb-5581" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="a0d3-e0d0-6de4-86e4" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c45c-a53f-a1e7-aecd" name="Greek Hoplite" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="198c-a324-69dc-3344" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4160-ef1c-a4ea-c03d" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0980-c69e-7bc3-fb18" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b480-2e69-64cf-38be" name="Armour" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="fb84-4df1-ded4-baec" name="Linothorax" hidden="false" collective="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4ab-c8b6-3dea-e104" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e5-986f-ee9f-be33" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="12de-61a1-b648-904f" name="Arrow Apron" hidden="false" collective="true" targetId="c9ed-9fc1-86e7-7712" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8922-df9b-bb71-a6bb" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="09ae-f9a7-a3b5-442c" name="Large Shield" hidden="false" collective="true" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b026-247c-f662-1bf7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0bb-a635-00b9-a387" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="57b7-eaeb-e21c-6a79" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b3a-3475-928e-a76e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ad-d3b2-1bd7-9dd8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="28f5-f734-a6db-4ae1" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b7-a3bf-1fff-5a8a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1906-faff-8b1d-065b" name="Horn" hidden="false" collective="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b39-306f-9320-37c5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f31c-a77b-3eee-a6f5" name="Parthian Horse Archer" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="b5eb-fb93-22c1-6a1d" name="Parthian Horse Archer" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">8&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+3</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+2</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+1</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+1</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9337-0e05-ddf8-f895" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+        <infoLink id="3e02-eb22-2e03-ed95" name="Parthian Shot" hidden="false" targetId="2afe-5308-ccaa-a007" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f624-75aa-a7b5-80ac" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+        <categoryLink id="4687-92bc-3c5f-1ff1" name="New CategoryLink" hidden="false" targetId="3c73-901d-00b6-87ff" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ba05-5588-8d16-3bdf" name="Parthian Horse Archer" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a8-92ee-67c8-160a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="294b-e173-64f2-138b" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7534-63fe-6c86-350a" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bf7d-59dc-2fe7-c455" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e199-e8bf-7da8-a38a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6588-ac49-e288-41b3" name="Bow" hidden="false" collective="true" targetId="642e-934f-35b8-8da4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dba-aca2-5d0c-bf21" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fca-55d8-eacb-72cb" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d5ff-91b5-610f-5051" name="Horse" hidden="false" collective="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7e-3958-0390-f337" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d410-f930-914c-e831" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8c68-cd8e-792f-2e15" name="Horn" hidden="false" collective="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a7-216b-36d0-79ef" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e465-abda-ba64-a752" name="Standard" hidden="false" collective="true" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e175-11ec-f62f-6b7c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a78a-80d7-e9d6-4e8c" name="Numidian Cavalryman" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cbcd-99af-b8e8-9758" name="Numidian Cavalryman" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">7&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+2</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+2</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+2</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+1</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d16-295c-b99b-9b21" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+        <infoLink id="4a44-598c-f5bc-8a12" name="No Equal on Horseback" hidden="false" targetId="0435-4726-63f7-e924" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a1f1-767c-bcb2-9299" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+        <categoryLink id="40c2-f128-5585-a72e" name="New CategoryLink" hidden="false" targetId="3c73-901d-00b6-87ff" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="29d5-0ac3-f43b-da7a" name="Numidian Cavalryman" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bc-ea94-f5e2-4343" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba8-9416-01a1-d15d" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="95d4-4bd4-7146-2a5e" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e57-c194-622f-94e5" name="Two Swords" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="5c36-dd73-6e2a-860d" value="8.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77df-541f-1f1c-27fd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bde3-da8d-6e5f-9fdc" name="Sword" hidden="false" collective="false" targetId="ced3-c4d0-55de-b57c" type="selectionEntry"/>
+            <entryLink id="cb1c-7882-39d6-95f7" name="Sword" hidden="false" collective="false" targetId="ced3-c4d0-55de-b57c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="38d7-3ef1-7f80-c8fb" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b80-a3c7-65bd-a7a2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f497-cfd1-4baf-1db3" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b43-c098-af15-e192" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7894-8081-7faa-682e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3ec6-65b7-597e-dfc0" name="Horse" hidden="false" collective="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f69-ff04-1b98-7e6c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f46-40c8-21e5-b9c3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2795-290a-fc4b-98cc" name="Horn" hidden="false" collective="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e1e-2e19-f1b4-c299" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8d4f-51ac-87ff-d7cf" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ff-092b-23f0-e982" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1367-015f-0e09-c70e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61d1-be41-ed2c-8f9e" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad8-4b01-b207-ace5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e48-2017-d94f-cf0a" name="Numidian Skirmisher" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="48c2-2468-286d-5b32" name="Numidian Skirmisher" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+2</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+1</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+2</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a500-cb31-7592-0e87" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4363-9d7d-3894-eb56" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+        <categoryLink id="c15d-e6b7-fd30-93f2" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3810-2ff6-f2c6-cf32" name="Numidian Skirmisher" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee18-2810-409a-6731" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6da-0ed4-c6da-5a87" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d622-9f95-bfc2-925b" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3297-aaed-c9d9-0d4f" name="Dagger" hidden="false" collective="true" targetId="e755-87d2-d778-0059" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ad-b40a-38cd-11a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398f-e2cc-5b24-4f4d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cd8f-7152-2183-e6b9" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b5-0bb0-a30b-a182" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0c-288d-6a49-aeb2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d05b-ebe4-2499-e8e2" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="040c-5657-fa03-784e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbee-eeb5-3b3d-348c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5a1d-2a37-17fa-f4c6" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82dd-0b0d-80d7-56dd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a85e-008b-b05d-423d" name="Thessalian Cavalryman" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3bd7-40c4-d2ca-a0d5" name="Thessalian Cavalryman" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">7&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+2</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+2</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+2</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+1</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d6a-99ef-cf75-8e35" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+        <infoLink id="568f-7fe3-00fa-2a69" name="Finest Horsemen" hidden="false" targetId="aa6f-7065-6310-ebea" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ae5a-7e63-3924-ffa0" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+        <categoryLink id="d558-2ef3-27e0-a617" name="New CategoryLink" hidden="false" targetId="3c73-901d-00b6-87ff" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7c1b-51e0-ab51-c124" name="Thessalian Cavalryman" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347a-2584-0189-d018" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b9-36ae-1241-7346" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="dc86-d52b-fe2f-b49f" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e931-e408-86c9-dc74" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f916-cb71-c161-e92f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89fc-26aa-5c6d-72f0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="81fd-0034-a556-a806" name="Horse" hidden="false" collective="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e87-b7f2-059d-ecd1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e28e-7f50-b864-2d0b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="37c0-3f5b-e971-2f12" name="Horn" hidden="false" collective="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e189-d0df-94cb-28f2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="47df-6406-82ab-5ce5" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f8-48a5-396c-f054" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5981-94b2-7c49-cbda" name="Thracian Peltast" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="adba-b48d-191f-512d" name="Thracian Peltast" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+2</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">1D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+1</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+1</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5e8f-36a2-c5f8-fa32" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
+        <infoLink id="ec6b-66ac-bca6-3982" name="The Original Model" hidden="false" targetId="9afc-e612-d53e-f36b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fff3-c80f-d180-81ca" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="14d9-e4ec-27f2-df7b" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="88ec-1ad3-9f47-7706" name="Thracian Peltast" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c3-71d1-aee5-7f3c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4927-b2c8-72b7-070f" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0ad7-33fc-79f2-db27" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0851-f3f2-71d1-fbf2" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c819-fe63-0e7c-4899" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896c-06fe-c94d-b962" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a6e3-9a64-1325-e54f" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e04-9a44-4994-881e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b700-0a85-757f-3b07" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6a12-d0b3-3526-e81e" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="112d-6c7e-b2a8-cbfa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f3b1-086e-e231-fff3" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0a4-21ec-0966-2d4a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="821d-267b-5642-b764" name="Sword" hidden="false" collective="false" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86b0-00a3-d4d1-f9d8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c09-c5ea-6484-3a55" name="Thracian Warrior" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f143-3749-644b-9d6d" name="Thracian Warrior" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="e9aa-056b-7d55-670a">Infantry Minion</characteristic>
+            <characteristic name="Move" typeId="5fd1-7b9c-b935-b627">6&quot;</characteristic>
+            <characteristic name="Ranged" typeId="5c8c-9801-1fbc-108d">+1</characteristic>
+            <characteristic name="Melee" typeId="e6f2-beb9-61a7-f25d">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="f537-50b3-b4ea-a802">2D</characteristic>
+            <characteristic name="Agility" typeId="321d-73c5-979f-f323">+1</characteristic>
+            <characteristic name="Bravery" typeId="6766-8961-8b6e-8bdf">+1</characteristic>
+            <characteristic name="Armour" typeId="ddaf-ef77-12e6-5524">+0</characteristic>
+            <characteristic name="Wounds" typeId="df1b-aba3-f893-efe8">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8410-f05c-82a7-90ce" name="Strength in Numbers" hidden="false" targetId="2f53-e419-6ce5-76ed" type="rule"/>
+        <infoLink id="e28b-00f5-13ff-55f1" name="Wild Charge" hidden="false" targetId="7239-74fa-2329-8795" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c826-63a2-352a-52e2" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="9b76-3119-48b6-f0af" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2457-c7d7-add8-1440" name="Thracian Warrior" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0a7-06bc-5770-daac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fc-86d5-3fbc-d27e" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1cf8-5ce4-bc89-0e1a" name="Mercenaries" hidden="false" targetId="92fc-9dd3-fb32-08c7" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a0b4-eb5a-8b60-f933" name="Small Shield" hidden="false" collective="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c6-c16a-3e02-7e2c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d9-f010-a628-09cb" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7636-a249-23ed-fc8c" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f887-1c53-a589-e86d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e3bc-1a12-8f4f-2b47" name="Sword" hidden="false" collective="false" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e182-1699-d0c5-ab41" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d62-012a-0e03-3f41" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bc81-0023-5556-3a4d" name="Rhomphaia" hidden="false" targetId="a675-7972-3d38-5ee9" type="rule"/>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
