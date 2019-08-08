@@ -21,8 +21,8 @@
         <infoLink id="c73d-380a-7ea9-72dc" name="Hero of Rome" hidden="false" targetId="d9a4-2209-c00a-078f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cb28-0675-e18c-19a9" name="Heroes" hidden="false" targetId="1225-ebcd-1580-d41b" primary="false"/>
-        <categoryLink id="fe6a-2e79-bb94-9d61" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="true"/>
+        <categoryLink id="cb28-0675-e18c-19a9" name="Heroes" hidden="false" targetId="1225-ebcd-1580-d41b" primary="true"/>
+        <categoryLink id="fe6a-2e79-bb94-9d61" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="443f-9741-f3ea-7518" name="Armour" hidden="false" collective="false">
@@ -592,8 +592,8 @@
         <infoLink id="43ca-5c44-eb1c-dc25" name="Hit and Run" hidden="false" targetId="3416-54d9-06e1-992c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e947-d625-1c94-eceb" name="Cavalry" hidden="false" targetId="3c73-901d-00b6-87ff" primary="false"/>
-        <categoryLink id="7049-815f-5dae-2849" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="true"/>
+        <categoryLink id="e947-d625-1c94-eceb" name="Cavalry" hidden="false" targetId="3c73-901d-00b6-87ff" primary="true"/>
+        <categoryLink id="7049-815f-5dae-2849" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="459c-8a86-70c6-500c" name="Cavalryman" hidden="false" collective="false" type="model">
@@ -697,8 +697,8 @@ A Scorpio can remove more than one model with a single hit (due to its Lethal ru
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="d5a7-7f43-8c65-92d6" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="false"/>
-        <categoryLink id="9beb-7a0b-3693-e95a" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="true"/>
+        <categoryLink id="d5a7-7f43-8c65-92d6" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="9beb-7a0b-3693-e95a" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9c30-bc16-aa04-b85f" name="Scorpio" hidden="false" collective="false" type="model">
@@ -750,8 +750,8 @@ A Scorpio can remove more than one model with a single hit (due to its Lethal ru
         <infoLink id="e9e7-9891-67d6-80c9" name="Testudo" hidden="false" targetId="10e2-60d7-2ce4-1ef8" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e337-c33e-5089-3365" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="false"/>
-        <categoryLink id="4052-65a0-cf7a-35f7" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="true"/>
+        <categoryLink id="e337-c33e-5089-3365" name="Infantry" hidden="false" targetId="cca0-3936-78fa-de5d" primary="true"/>
+        <categoryLink id="4052-65a0-cf7a-35f7" name="New CategoryLink" hidden="false" targetId="52ee-e3d6-9000-9288" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="93af-0715-938f-7f86" name="Legionary" hidden="false" collective="false" type="model">
@@ -840,6 +840,9 @@ to have medical support close by. A warband of Caesar’s Legions is always coun
 access to the Healing Hands Talent (see page 47) even if no Hero possesses it.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="9349-d5cb-abac-29e3" name="New CategoryLink" hidden="false" targetId="acf7-3f33-cbde-086b" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
