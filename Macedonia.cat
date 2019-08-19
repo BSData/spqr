@@ -786,15 +786,9 @@
           </constraints>
         </entryLink>
         <entryLink id="956c-d2ab-f13d-b36d" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eab8-1efa-181d-5f5d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3775-49e9-fe0d-5620" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="964a-a37c-0395-3cae" name="Barding" hidden="false" collective="false" targetId="1de0-d919-cfd9-24d5" type="selectionEntry">
@@ -1321,6 +1315,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
