@@ -996,12 +996,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f4-fd28-d817-a9fc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f946-1c39-5350-ac55" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964e-d9ba-a411-9e84" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6879-0ae0-4f88-14f8" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="21c5-2503-b3c7-adf8" name="Small Shield" hidden="false" collective="false" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df2-618c-ab21-c702" type="min"/>
@@ -1017,7 +1011,13 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="12c9-290a-6455-fcdd" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+        <entryLink id="9a48-40a4-9d2e-7632" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0055-d5b5-6812-4295" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cb2-124e-c078-8538" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5c85-7416-b1ce-dad2" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
               <repeats>
@@ -1026,7 +1026,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="424b-7bea-7db8-cf6d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6393-83dd-c973-e68f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
