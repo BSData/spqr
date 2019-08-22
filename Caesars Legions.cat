@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49c3-0efd-1187-1f54" name="Caesars Legions" revision="2" battleScribeVersion="2.02" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49c3-0efd-1187-1f54" name="Caesars Legions" revision="3" battleScribeVersion="2.02" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="29a5-76ec-556e-b760" name="Hero" hidden="false" collective="false" type="model">
       <profiles>
@@ -32,7 +32,7 @@
           <entryLinks>
             <entryLink id="d273-9a57-1223-388a" name="Chainmail Shirt" hidden="false" collective="false" targetId="a1ab-bea8-9a51-fb15" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="20.0"/>
               </modifiers>
             </entryLink>
             <entryLink id="9b02-983c-f73d-eeaf" name="Cuirass" hidden="false" collective="false" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
