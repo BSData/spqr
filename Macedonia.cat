@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed3d-5a9c-9093-348d" name="Macedonia" revision="3" battleScribeVersion="2.02" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed3d-5a9c-9093-348d" name="Macedonia" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="29a5-76ec-556e-b760" name="Hero" hidden="false" collective="false" type="model">
+    <selectionEntry id="29a5-76ec-556e-b760" name="Hero" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="db5d-f340-1548-080a" name="Hero" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -22,43 +22,43 @@
         <categoryLink id="870e-c72b-fbc3-7659" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="443f-9741-f3ea-7518" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="443f-9741-f3ea-7518" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1829-fcb3-e033-cd62" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d273-9a57-1223-388a" name="Linothorax" hidden="false" collective="false" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
+            <entryLink id="d273-9a57-1223-388a" name="Linothorax" hidden="false" collective="false" import="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="9b02-983c-f73d-eeaf" name="Cuirass" hidden="false" collective="false" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
+            <entryLink id="9b02-983c-f73d-eeaf" name="Cuirass" hidden="false" collective="false" import="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="15.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="f543-f558-1ab1-3cc4" name="Helmet" hidden="false" collective="false" targetId="b786-6558-76f2-7629" type="selectionEntry">
+            <entryLink id="f543-f558-1ab1-3cc4" name="Helmet" hidden="false" collective="false" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f0a8-b141-2671-4771" name="Shield" hidden="false" collective="false">
+        <selectionEntryGroup id="f0a8-b141-2671-4771" name="Shield" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5fc-90bd-f0a1-8a1b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3bd9-dd46-99e5-086b" name="Large Shield" hidden="false" collective="false" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
+            <entryLink id="3bd9-dd46-99e5-086b" name="Large Shield" hidden="false" collective="false" import="true" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e1f4-970f-abc0-d8f5" name="Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="e1f4-970f-abc0-d8f5" name="Weapon" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="a9db-042c-c0db-50b7" name="Long Spear" hidden="false" collective="false" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+            <entryLink id="a9db-042c-c0db-50b7" name="Long Spear" hidden="false" collective="false" import="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
               </modifiers>
@@ -66,7 +66,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb4-f59c-075e-f9ac" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d2a9-f7a4-e0c9-4a21" name="Sword" hidden="false" collective="false" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+            <entryLink id="d2a9-f7a4-e0c9-4a21" name="Sword" hidden="false" collective="false" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
               </modifiers>
@@ -74,7 +74,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50d-d525-fccd-6fb4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="77ed-1a04-678c-f239" name="Sling" hidden="false" collective="false" targetId="4484-45c9-9905-740a" type="selectionEntry">
+            <entryLink id="77ed-1a04-678c-f239" name="Sling" hidden="false" collective="false" import="true" targetId="4484-45c9-9905-740a" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0"/>
               </modifiers>
@@ -82,7 +82,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e927-c032-f139-02bc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="a0b3-fdda-aa6a-c22e" name="Javelin" hidden="false" collective="false" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+            <entryLink id="a0b3-fdda-aa6a-c22e" name="Javelin" hidden="false" collective="false" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0"/>
               </modifiers>
@@ -92,62 +92,62 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0d14-8528-aa8f-4d89" name="Equipment" hidden="false" collective="false">
+        <selectionEntryGroup id="0d14-8528-aa8f-4d89" name="Equipment" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0a4-11d0-e9f9-940d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8e07-ee24-50fc-174f" name="Horse" hidden="false" collective="false" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
+            <entryLink id="8e07-ee24-50fc-174f" name="Horse" hidden="false" collective="false" import="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="40.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4dc0-99fa-0146-2a54" name="Level" hidden="false" collective="false">
+        <selectionEntryGroup id="4dc0-99fa-0146-2a54" name="Level" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="e93e-a251-52d1-3a88" name="Level 1" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e93e-a251-52d1-3a88" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acee-7e35-72e4-3eee" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="2cb3-fe01-d9aa-80b2" name="Selections" hidden="false" collective="false">
+                <selectionEntryGroup id="2cb3-fe01-d9aa-80b2" name="Selections" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb2-b4ad-3046-be68" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4462-bc47-87d5-d73f" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="f188-4bd1-7428-eca0" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="f188-4bd1-7428-eca0" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="6470-0d1b-8200-70f6" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="6470-0d1b-8200-70f6" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="c550-af32-70a0-8ef8" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="c550-af32-70a0-8ef8" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="fc45-b0ed-207b-4190" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="fc45-b0ed-207b-4190" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="f4ee-e8e2-3a1c-4c9b" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="f4ee-e8e2-3a1c-4c9b" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="5a70-ec4e-8854-6d34" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="5a70-ec4e-8854-6d34" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7431-f210-8df8-3d9c" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="7431-f210-8df8-3d9c" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -159,7 +159,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4969-7655-7897-037c" name="Level 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4969-7655-7897-037c" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -172,13 +172,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8bb-2fa5-4d8f-814e" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="dea4-b160-7fa1-2478" name="Selections" hidden="false" collective="false" defaultSelectionEntryId="929d-da44-6ccf-c12e">
+                <selectionEntryGroup id="dea4-b160-7fa1-2478" name="Selections" hidden="false" collective="false" import="true" defaultSelectionEntryId="929d-da44-6ccf-c12e">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9259-e88c-4a9a-d7ed" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6eb-10b7-7f81-e3ef" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="929d-da44-6ccf-c12e" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="929d-da44-6ccf-c12e" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -190,7 +190,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="19eb-9707-9beb-2a8a" name="Level 3" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="19eb-9707-9beb-2a8a" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -203,43 +203,43 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d7d-3e0e-7f14-c3cc" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="ede9-db76-ede7-002b" name="Selections" hidden="false" collective="false">
+                <selectionEntryGroup id="ede9-db76-ede7-002b" name="Selections" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-b680-30d9-f2c4" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd8-99c7-9a7d-7150" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="7e57-0a7e-dc5d-235a" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="7e57-0a7e-dc5d-235a" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="cc55-a7fd-fa06-f3a4" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="cc55-a7fd-fa06-f3a4" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="310f-e3a5-5b62-f5ed" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="310f-e3a5-5b62-f5ed" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="b75f-a579-b778-22eb" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="b75f-a579-b778-22eb" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="cb17-375d-3633-940d" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="cb17-375d-3633-940d" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e9ed-43c2-bdda-4c29" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="e9ed-43c2-bdda-4c29" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9b17-1844-2d57-0066" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="9b17-1844-2d57-0066" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -251,7 +251,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d851-ffe4-e801-a0ea" name="Level 4" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d851-ffe4-e801-a0ea" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -264,13 +264,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b879-2992-6f6f-2d3a" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="866f-e843-e3bb-1a20" name="Selections" hidden="false" collective="false" defaultSelectionEntryId="89ce-dca5-788e-a8f3">
+                <selectionEntryGroup id="866f-e843-e3bb-1a20" name="Selections" hidden="false" collective="false" import="true" defaultSelectionEntryId="89ce-dca5-788e-a8f3">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7327-892c-b0a1-5a50" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0728-e95b-1532-9fee" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="89ce-dca5-788e-a8f3" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="89ce-dca5-788e-a8f3" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -282,7 +282,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ab2e-e248-7349-2fc4" name="Level 5" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ab2e-e248-7349-2fc4" name="Level 5" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -295,43 +295,43 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf4-1a35-7c61-b574" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e2f7-e218-5777-6724" name="Selections" hidden="false" collective="false">
+                <selectionEntryGroup id="e2f7-e218-5777-6724" name="Selections" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8150-8787-41cf-9036" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50a0-43c4-2829-107c" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="e5c6-6268-788d-4b08" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="e5c6-6268-788d-4b08" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a4c3-3e32-4c01-0a0e" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="a4c3-3e32-4c01-0a0e" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="4736-853d-8e6b-b42b" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="4736-853d-8e6b-b42b" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="fb68-7b90-fb85-55e1" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="fb68-7b90-fb85-55e1" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="eb9b-9f25-7911-da9e" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="eb9b-9f25-7911-da9e" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7873-5d2b-23b6-d413" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="7873-5d2b-23b6-d413" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="f533-0f38-17d2-c001" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="f533-0f38-17d2-c001" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -343,7 +343,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="347b-4d8e-e9db-c4b2" name="Level 6" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="347b-4d8e-e9db-c4b2" name="Level 6" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -356,13 +356,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1086-a49f-e070-0cc7" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="7aa2-1894-9614-5648" name="Selections" hidden="false" collective="false" defaultSelectionEntryId="1ac4-dc2e-d752-51c4">
+                <selectionEntryGroup id="7aa2-1894-9614-5648" name="Selections" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ac4-dc2e-d752-51c4">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facc-5be8-0b4c-e8c9" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45b0-08ef-df4f-c765" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="1ac4-dc2e-d752-51c4" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="1ac4-dc2e-d752-51c4" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -374,7 +374,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7913-b661-4bc8-9904" name="Level 7" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="7913-b661-4bc8-9904" name="Level 7" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -387,43 +387,43 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a220-c263-ab23-823e" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5208-8109-f28b-9844" name="Selections" hidden="false" collective="false">
+                <selectionEntryGroup id="5208-8109-f28b-9844" name="Selections" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937a-15b3-bef2-8bd1" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c85-77a3-6bf4-72d8" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="0144-1347-3fbb-07fa" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="0144-1347-3fbb-07fa" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="4b41-0f39-51bc-244f" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="4b41-0f39-51bc-244f" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a7b0-fc42-69af-5432" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="a7b0-fc42-69af-5432" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="efea-d29a-3ff4-12e2" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="efea-d29a-3ff4-12e2" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8c59-02dd-ab09-f7f9" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="8c59-02dd-ab09-f7f9" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a0e9-6a0d-1fb0-e1a3" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="a0e9-6a0d-1fb0-e1a3" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9e57-d5a4-7326-d2a7" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="9e57-d5a4-7326-d2a7" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -435,7 +435,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1888-2af1-a479-5cf4" name="Level 8" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1888-2af1-a479-5cf4" name="Level 8" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -448,13 +448,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2604-ca3e-d2f6-da36" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="f4d2-0c83-c018-d732" name="Selections" hidden="false" collective="false" defaultSelectionEntryId="8411-1646-02de-d4ff">
+                <selectionEntryGroup id="f4d2-0c83-c018-d732" name="Selections" hidden="false" collective="false" import="true" defaultSelectionEntryId="8411-1646-02de-d4ff">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b3b-52d5-fd6f-02e0" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf91-e2c7-d29c-c18b" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="8411-1646-02de-d4ff" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="8411-1646-02de-d4ff" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -466,7 +466,7 @@
                 <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e7c3-cd27-fd74-bdff" name="Level 9" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e7c3-cd27-fd74-bdff" name="Level 9" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
                 <modifier type="set" field="hidden" value="true">
@@ -479,80 +479,80 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b475-d964-c00e-dc2e" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="fc90-44f2-9631-04a5" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="fc90-44f2-9631-04a5" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4b1e-0e6f-71f3-d575" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4b1e-0e6f-71f3-d575" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d228-c549-9de1-7302" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="d228-c549-9de1-7302" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ab64-5d38-97b3-d23e" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="ab64-5d38-97b3-d23e" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="423b-f04e-984e-0903" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="423b-f04e-984e-0903" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="a652-2023-bd44-4f1e" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="a652-2023-bd44-4f1e" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="55b4-0e69-0ddf-7a89" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="55b4-0e69-0ddf-7a89" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="2e9f-7f1e-0b12-b682" name="Selections" hidden="false" collective="false">
+                <selectionEntryGroup id="2e9f-7f1e-0b12-b682" name="Selections" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="713c-ca75-8d13-4d6d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d7-7048-db64-1156" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="aa00-a790-5be2-4105" name="+1 Agility" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="aa00-a790-5be2-4105" name="+1 Agility" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="b812-73ff-7e7c-5ad0" name="+1 Bravery" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="b812-73ff-7e7c-5ad0" name="+1 Bravery" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="b80c-d172-7e95-0209" name="+1 Melee" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="b80c-d172-7e95-0209" name="+1 Melee" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="2387-6af6-ebc7-8c6f" name="+1 Melee Dice" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="2387-6af6-ebc7-8c6f" name="+1 Melee Dice" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="c1d9-086c-9094-a544" name="+1 Move" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="c1d9-086c-9094-a544" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="35f8-09b2-74a9-94e1" name="+1 Ranged" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="35f8-09b2-74a9-94e1" name="+1 Ranged" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="61df-8d22-9316-b369" name="+1 Wounds" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="61df-8d22-9316-b369" name="+1 Wounds" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
                         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
                       </costs>
@@ -568,13 +568,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e4cd-b501-0da5-0ab3" name="Talents" hidden="false" collective="false" targetId="c2d3-3adf-619b-eadf" type="selectionEntryGroup"/>
+        <entryLink id="e4cd-b501-0da5-0ab3" name="Talents" hidden="false" collective="false" import="true" targetId="c2d3-3adf-619b-eadf" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d30c-1df2-b697-baa1" name="Royal Guard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d30c-1df2-b697-baa1" name="Royal Guard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="904a-3759-0f13-2827" name="Royal Guard" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -599,7 +599,7 @@
         <categoryLink id="04a8-72e1-4823-c61f" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5ecc-e444-03d5-e560" name="Royal Guard" hidden="false" collective="false" type="model">
+        <selectionEntry id="5ecc-e444-03d5-e560" name="Royal Guard" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e061-70e8-b32d-6e0c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af35-3e65-c9cb-9251" type="min"/>
@@ -610,12 +610,12 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a261-f0c6-f03a-96d5" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="a261-f0c6-f03a-96d5" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e20-ee9e-2d42-2c0e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6e05-b1d4-e50a-026a" name="Cuirass" hidden="false" collective="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
+            <entryLink id="6e05-b1d4-e50a-026a" name="Cuirass" hidden="false" collective="true" import="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10">
                   <repeats>
@@ -627,7 +627,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="292c-a3af-4fb8-9ee3" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b480-ebd7-30af-3959" name="Linothorax" hidden="false" collective="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
+            <entryLink id="b480-ebd7-30af-3959" name="Linothorax" hidden="false" collective="true" import="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5">
                   <repeats>
@@ -641,15 +641,15 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="11be-2ffa-7946-d343" name="Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="11be-2ffa-7946-d343" name="Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd0a-cea6-2667-6247" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1936-3e22-e1e9-68b1" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry"/>
-            <entryLink id="f7c2-1ff0-45dd-72e6" name="Bow" hidden="false" collective="false" targetId="642e-934f-35b8-8da4" type="selectionEntry"/>
-            <entryLink id="238a-a990-683a-0ea5" name="Sling" hidden="false" collective="false" targetId="4484-45c9-9905-740a" type="selectionEntry"/>
-            <entryLink id="1212-280d-81ab-0601" name="Pike" hidden="false" collective="true" targetId="e3cd-56b3-f0a1-2516" type="selectionEntry">
+            <entryLink id="1936-3e22-e1e9-68b1" name="Long Spear" hidden="false" collective="true" import="true" targetId="7157-0243-bbac-15e4" type="selectionEntry"/>
+            <entryLink id="f7c2-1ff0-45dd-72e6" name="Bow" hidden="false" collective="false" import="true" targetId="642e-934f-35b8-8da4" type="selectionEntry"/>
+            <entryLink id="238a-a990-683a-0ea5" name="Sling" hidden="false" collective="false" import="true" targetId="4484-45c9-9905-740a" type="selectionEntry"/>
+            <entryLink id="1212-280d-81ab-0601" name="Pike" hidden="false" collective="true" import="true" targetId="e3cd-56b3-f0a1-2516" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
                   <repeats>
@@ -662,25 +662,25 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b067-f3e3-ba4a-4986" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+        <entryLink id="b067-f3e3-ba4a-4986" name="Long Spear" hidden="false" collective="true" import="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7260-ed2d-e6b8-480e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3175-e7c3-bee8-f76a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="02ce-6310-e639-57f5" name="Large Shield" hidden="false" collective="false" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
+        <entryLink id="02ce-6310-e639-57f5" name="Large Shield" hidden="false" collective="false" import="true" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a79-1352-29e7-49c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f86-ee04-4585-8663" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3066-5d77-7d12-d9b9" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="3066-5d77-7d12-d9b9" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64da-3335-3a21-f877" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f9-4c31-54ef-163d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3e59-b13d-32ab-b14e" name="Horn" hidden="false" collective="false" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+        <entryLink id="3e59-b13d-32ab-b14e" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0"/>
           </modifiers>
@@ -688,7 +688,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f270-df36-d15e-84f9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3757-ac75-bb35-1302" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+        <entryLink id="3757-ac75-bb35-1302" name="Helmet" hidden="false" collective="true" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4012-e934-174d-aeca" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e2-c587-f370-182d" type="min"/>
@@ -699,7 +699,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2fa-3ee5-6d9d-dba5" name="Hetairoi" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f2fa-3ee5-6d9d-dba5" name="Hetairoi" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="667d-fbdc-afde-ed45" name="Hetairoi" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -723,7 +723,7 @@
         <categoryLink id="9ff5-7b51-e0d0-0411" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="459c-8a86-70c6-500c" name="Hetairoi" hidden="false" collective="false" type="model">
+        <selectionEntry id="459c-8a86-70c6-500c" name="Hetairoi" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64b6-8613-12cd-1a5a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e37e-bf86-55a2-db82" type="min"/>
@@ -734,13 +734,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2119-7ec9-1cdc-2bb7" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="2119-7ec9-1cdc-2bb7" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e9-f58f-169f-2bb5" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5d3b-620e-95f5-b4f2" name="Linothorax" hidden="false" collective="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry"/>
-            <entryLink id="afe1-9a65-82fd-5207" name="Cuirass" hidden="false" collective="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
+            <entryLink id="5d3b-620e-95f5-b4f2" name="Linothorax" hidden="false" collective="true" import="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry"/>
+            <entryLink id="afe1-9a65-82fd-5207" name="Cuirass" hidden="false" collective="true" import="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
                   <repeats>
@@ -753,7 +753,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="41ff-1edf-0a7b-d43e" name="Horn" hidden="false" collective="false" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+        <entryLink id="41ff-1edf-0a7b-d43e" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0"/>
           </modifiers>
@@ -761,19 +761,19 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8c-db0f-b898-162b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9746-96f3-fdca-66c6" name="Horse" hidden="false" collective="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
+        <entryLink id="9746-96f3-fdca-66c6" name="Horse" hidden="false" collective="true" import="true" targetId="6a35-f40a-f8fa-4bac" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdc7-08a5-109d-8795" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34c-def1-3da8-3ad7" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="9468-e405-975f-4daf" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+        <entryLink id="9468-e405-975f-4daf" name="Long Spear" hidden="false" collective="true" import="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29d-6682-f169-7ba5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f36f-80ae-8f33-f3a6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0316-d3d2-e687-38e0" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+        <entryLink id="0316-d3d2-e687-38e0" name="Javelin" hidden="false" collective="true" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
               <repeats>
@@ -785,13 +785,13 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ca-08de-4b94-a1f3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="956c-d2ab-f13d-b36d" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="956c-d2ab-f13d-b36d" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eab8-1efa-181d-5f5d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3775-49e9-fe0d-5620" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="964a-a37c-0395-3cae" name="Barding" hidden="false" collective="false" targetId="1de0-d919-cfd9-24d5" type="selectionEntry">
+        <entryLink id="964a-a37c-0395-3cae" name="Barding" hidden="false" collective="false" import="true" targetId="1de0-d919-cfd9-24d5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
               <repeats>
@@ -800,7 +800,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="be41-42a1-befe-8982" name="Standard" hidden="false" collective="false" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
+        <entryLink id="be41-42a1-befe-8982" name="Standard" hidden="false" collective="false" import="true" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
           </modifiers>
@@ -813,7 +813,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c71-5288-514d-e814" name="Pezhetairoi" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8c71-5288-514d-e814" name="Pezhetairoi" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="11c5-d233-1949-fc73" name="Pezhetairoi" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -837,7 +837,7 @@
         <categoryLink id="e013-c7d7-3269-f907" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="93af-0715-938f-7f86" name="Pezhetairoi" hidden="false" collective="false" type="model">
+        <selectionEntry id="93af-0715-938f-7f86" name="Pezhetairoi" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0660-f551-cdae-f269" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="991f-999e-b8e4-b4a0" type="min"/>
@@ -848,12 +848,12 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0c22-f214-6167-575b" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="0c22-f214-6167-575b" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9817-85c4-cbd0-2f3e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b311-3d38-ff9d-fec3" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+            <entryLink id="b311-3d38-ff9d-fec3" name="Helmet" hidden="false" collective="true" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2">
                   <repeats>
@@ -862,7 +862,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="7092-3fcc-94d9-f511" name="Linothorax" hidden="false" collective="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
+            <entryLink id="7092-3fcc-94d9-f511" name="Linothorax" hidden="false" collective="true" import="true" targetId="7f8f-ff5d-3901-a803" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5">
                   <repeats>
@@ -871,7 +871,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="a40b-af86-58d7-7a13" name="Cuirass" hidden="false" collective="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
+            <entryLink id="a40b-af86-58d7-7a13" name="Cuirass" hidden="false" collective="true" import="true" targetId="a700-13dd-b838-b2e3" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
                   <repeats>
@@ -884,7 +884,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0da7-eb75-0e4a-e638" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="0da7-eb75-0e4a-e638" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3">
               <repeats>
@@ -896,19 +896,19 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1078-1a03-0a97-1912" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3806-48d6-4dba-7101" name="Pike" hidden="false" collective="true" targetId="e3cd-56b3-f0a1-2516" type="selectionEntry">
+        <entryLink id="3806-48d6-4dba-7101" name="Pike" hidden="false" collective="true" import="true" targetId="e3cd-56b3-f0a1-2516" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb58-b870-f6ee-7988" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0975-d006-b2ce-efa8" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="dac0-bad0-1d26-08fd" name="Large Shield" hidden="false" collective="false" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
+        <entryLink id="dac0-bad0-1d26-08fd" name="Large Shield" hidden="false" collective="false" import="true" targetId="5d24-d6fe-34ae-f552" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256a-1a5b-fa46-8a43" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0074-0e07-49f8-92f3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8b2b-6d71-5632-30fd" name="Standard" hidden="false" collective="false" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
+        <entryLink id="8b2b-6d71-5632-30fd" name="Standard" hidden="false" collective="false" import="true" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25">
               <repeats>
@@ -917,7 +917,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="7028-a43c-c105-9ca3" name="Horn" hidden="false" collective="false" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+        <entryLink id="7028-a43c-c105-9ca3" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10">
               <repeats>
@@ -931,7 +931,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe1f-690a-2f6d-0129" name="Peltast" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fe1f-690a-2f6d-0129" name="Peltast" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="09f6-edcd-a3af-5399" name="Peltast" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -955,7 +955,7 @@
         <categoryLink id="4304-2632-d5ce-495f" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7461-d6d2-a7ec-912a" name="Peltast" hidden="false" collective="false" type="model">
+        <selectionEntry id="7461-d6d2-a7ec-912a" name="Peltast" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681d-d783-9e5d-b4e2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4429-5305-3d65-8950" type="min"/>
@@ -966,12 +966,12 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7066-6d7c-10c6-7669" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="7066-6d7c-10c6-7669" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e514-56d2-84ac-8f87" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4f02-502b-374f-23ba" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+            <entryLink id="4f02-502b-374f-23ba" name="Helmet" hidden="false" collective="true" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2">
                   <repeats>
@@ -984,7 +984,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9df0-39b9-572b-7226" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="9df0-39b9-572b-7226" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3">
               <repeats>
@@ -996,13 +996,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f4-fd28-d817-a9fc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="21c5-2503-b3c7-adf8" name="Small Shield" hidden="false" collective="false" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+        <entryLink id="21c5-2503-b3c7-adf8" name="Small Shield" hidden="false" collective="false" import="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df2-618c-ab21-c702" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facd-e863-ec9b-1462" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d249-2c82-e71c-886c" name="Horn" hidden="false" collective="false" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+        <entryLink id="d249-2c82-e71c-886c" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0"/>
           </modifiers>
@@ -1010,13 +1010,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1417-acf1-3c18-76d6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9a48-40a4-9d2e-7632" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+        <entryLink id="9a48-40a4-9d2e-7632" name="Javelin" hidden="false" collective="true" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0055-d5b5-6812-4295" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cb2-124e-c078-8538" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5c85-7416-b1ce-dad2" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+        <entryLink id="5c85-7416-b1ce-dad2" name="Javelin" hidden="false" collective="true" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
               <repeats>
@@ -1033,7 +1033,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3bb7-6acc-f280-5806" name="Psiloi" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3bb7-6acc-f280-5806" name="Psiloi" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="53be-152e-8403-baf5" name="Psiloi" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -1057,7 +1057,7 @@
         <categoryLink id="d3b4-a547-ecda-ff32" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a899-72e7-83b5-c027" name="Psiloi" hidden="false" collective="false" type="model">
+        <selectionEntry id="a899-72e7-83b5-c027" name="Psiloi" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5927-1a03-92f0-aca8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a3-3258-30f6-413c" type="min"/>
@@ -1068,12 +1068,12 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1b18-6401-4c32-6520" name="Animal Skins or Bucklers" hidden="false" collective="false">
+        <selectionEntryGroup id="1b18-6401-4c32-6520" name="Animal Skins or Bucklers" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50b3-6561-8d82-d860" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4ac3-8d79-4083-1e2b" name="Animal Skin" hidden="false" collective="true" targetId="be8d-9791-0086-68f8" type="selectionEntry">
+            <entryLink id="4ac3-8d79-4083-1e2b" name="Animal Skin" hidden="false" collective="true" import="true" targetId="be8d-9791-0086-68f8" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2">
                   <repeats>
@@ -1082,7 +1082,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="278a-5766-f266-7d84" name="Buckler" hidden="false" collective="true" targetId="ead4-51db-c04e-178d" type="selectionEntry">
+            <entryLink id="278a-5766-f266-7d84" name="Buckler" hidden="false" collective="true" import="true" targetId="ead4-51db-c04e-178d" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2">
                   <repeats>
@@ -1093,14 +1093,14 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="11fe-9054-db35-6c9d" name="Ranged Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="11fe-9054-db35-6c9d" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ad-e63a-84e1-a663" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c1ca-f6b0-39a2-0651" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+            <entryLink id="c1ca-f6b0-39a2-0651" name="Javelin" hidden="false" collective="true" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -1110,8 +1110,8 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4f-d385-438a-8a5a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="28b9-1119-c453-0943" name="Stones" hidden="false" collective="false" targetId="ca6e-0315-1572-1130" type="selectionEntry"/>
-            <entryLink id="b9c4-e946-3870-ec40" name="Bow" hidden="false" collective="false" targetId="642e-934f-35b8-8da4" type="selectionEntry">
+            <entryLink id="28b9-1119-c453-0943" name="Stones" hidden="false" collective="false" import="true" targetId="ca6e-0315-1572-1130" type="selectionEntry"/>
+            <entryLink id="b9c4-e946-3870-ec40" name="Bow" hidden="false" collective="false" import="true" targetId="642e-934f-35b8-8da4" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
                   <repeats>
@@ -1120,7 +1120,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="7bac-0705-82e4-86be" name="Sling" hidden="false" collective="false" targetId="4484-45c9-9905-740a" type="selectionEntry">
+            <entryLink id="7bac-0705-82e4-86be" name="Sling" hidden="false" collective="false" import="true" targetId="4484-45c9-9905-740a" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="4.0">
                   <repeats>
@@ -1133,7 +1133,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="50b2-15b8-aacf-a192" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="50b2-15b8-aacf-a192" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3">
               <repeats>
@@ -1145,7 +1145,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d6d-8fd7-6129-531a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="afa3-d1ac-444c-346b" name="Dagger" hidden="false" collective="true" targetId="e755-87d2-d778-0059" type="selectionEntry">
+        <entryLink id="afa3-d1ac-444c-346b" name="Dagger" hidden="false" collective="true" import="true" targetId="e755-87d2-d778-0059" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="980b-c00d-d7ce-d462" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8fb-2cf8-e9c0-05f5" type="min"/>
@@ -1156,7 +1156,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be80-354f-e1a0-80d3" name="Thureophoroi" hidden="false" collective="false" type="unit">
+    <selectionEntry id="be80-354f-e1a0-80d3" name="Thureophoroi" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="80bc-bfa8-d3d5-e0a5" name="Thureophoroi" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -1181,7 +1181,7 @@
         <categoryLink id="c5d0-83e1-c2d6-a23c" name="Macedonia" hidden="false" targetId="b246-5767-d033-5928" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9cff-fc33-bd95-55b5" name="Thureophoroi" hidden="false" collective="false" type="model">
+        <selectionEntry id="9cff-fc33-bd95-55b5" name="Thureophoroi" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="729f-0723-a9ff-b696" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f6-dcb5-80a4-76a1" type="min"/>
@@ -1192,14 +1192,14 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7bbd-f6de-6579-eb47" name="Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="7bbd-f6de-6579-eb47" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef0-d0da-05c1-faa4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cb-aa4c-16e8-0360" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a462-b1b6-01dd-d18c" name="Helmet" hidden="false" collective="true" targetId="b786-6558-76f2-7629" type="selectionEntry"/>
-            <entryLink id="1073-425e-c0e8-ffc1" name="Chainmail Shirt" hidden="false" collective="false" targetId="a1ab-bea8-9a51-fb15" type="selectionEntry">
+            <entryLink id="a462-b1b6-01dd-d18c" name="Helmet" hidden="false" collective="true" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry"/>
+            <entryLink id="1073-425e-c0e8-ffc1" name="Chainmail Shirt" hidden="false" collective="false" import="true" targetId="a1ab-bea8-9a51-fb15" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
                   <repeats>
@@ -1212,7 +1212,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="21cb-85f3-c656-a6b8" name="Sword" hidden="false" collective="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
+        <entryLink id="21cb-85f3-c656-a6b8" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3">
               <repeats>
@@ -1224,24 +1224,24 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d40-1cb6-ec14-31e0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="92c9-9748-6426-c2ad" name="Long Spear" hidden="false" collective="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
+        <entryLink id="92c9-9748-6426-c2ad" name="Long Spear" hidden="false" collective="true" import="true" targetId="7157-0243-bbac-15e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260b-2f3c-bcc2-a656" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1676-3f60-2c4b-ecac" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="bdda-6f51-91f8-81a3" name="Small Shield" hidden="false" collective="false" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
+        <entryLink id="bdda-6f51-91f8-81a3" name="Small Shield" hidden="false" collective="false" import="true" targetId="7d76-d042-b3d8-95ed" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3850-1faf-a2af-dfef" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3410-7fea-39e8-8803" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4786-b420-8a56-950b" name="Horn" hidden="false" collective="false" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
+        <entryLink id="4786-b420-8a56-950b" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="76b2-ec93-4e96-b36a" name="Javelin" hidden="false" collective="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
+        <entryLink id="76b2-ec93-4e96-b36a" name="Javelin" hidden="false" collective="true" import="true" targetId="49a7-73c5-ab41-788a" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
               <repeats>
@@ -1253,7 +1253,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0656-764b-5025-da5e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5324-1141-355f-47e1" name="Standard" hidden="false" collective="false" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
+        <entryLink id="5324-1141-355f-47e1" name="Standard" hidden="false" collective="false" import="true" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25.0"/>
           </modifiers>
@@ -1263,7 +1263,7 @@
         <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6033-0e2a-e2e0-e45e" name="War Elephant" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6033-0e2a-e2e0-e45e" name="War Elephant" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ea73-77bc-3f17-1b58" name="War Elephant" hidden="false" typeId="64c7-d252-0ded-e57d" typeName="Model">
           <characteristics>
@@ -1293,7 +1293,7 @@
         <categoryLink id="6003-242d-335a-66e0" name="Cavalry" hidden="false" targetId="3c73-901d-00b6-87ff" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8003-fd16-fb5c-1002" name="War Elephant" hidden="false" collective="false" type="model">
+        <selectionEntry id="8003-fd16-fb5c-1002" name="War Elephant" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53a2-ae92-61b2-4a23" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca3e-a217-0b43-40da" type="min"/>
@@ -1302,7 +1302,7 @@
             <cost name="Denarii" typeId="5c36-dd73-6e2a-860d" value="250.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3578-2804-6019-56b8" name="Turret" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3578-2804-6019-56b8" name="Turret" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad86-b518-e563-17b1" type="max"/>
           </constraints>
