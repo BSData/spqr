@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed3d-5a9c-9093-348d" name="Macedonia" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed3d-5a9c-9093-348d" name="Macedonia" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="29a5-76ec-556e-b760" name="Hero" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -910,21 +910,27 @@
         </entryLink>
         <entryLink id="8b2b-6d71-5632-30fd" name="Standard" hidden="false" collective="false" import="true" targetId="c28a-0ef5-e6ef-83a9" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="25">
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="5.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf3-2085-f688-86a1" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="7028-a43c-c105-9ca3" name="Horn" hidden="false" collective="false" import="true" targetId="3ac3-c63a-ac96-47b5" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10">
+            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="10.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adc1-0fb5-7d59-eedd" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
