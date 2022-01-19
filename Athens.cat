@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c0c-d4bb-8598-b08f" name="Athens" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c0c-d4bb-8598-b08f" name="Athens" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2008-3a5f-3b8b-1512" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="29a5-76ec-556e-b760" name="Hero" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -967,19 +967,40 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="c320-347e-630d-56c1" name="Helmet" hidden="false" collective="true" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0a2f-edb5-b355-8e44" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e5-c92f-d826-045e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76fc-9c34-a776-31f2" type="max"/>
           </constraints>
-        </entryLink>
+          <entryLinks>
+            <entryLink id="df63-6b16-733f-17ca" name="Helmet" hidden="false" collective="false" import="true" targetId="b786-6558-76f2-7629" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5024-6170-9cd9-4f8e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cda2-e378-4b37-acde" name="Leather Armour" hidden="false" collective="false" import="true" targetId="1723-8fca-033c-25cc" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4385-77bd-709d-8f41" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="5693-139f-eb5e-1c1d" name="Sword" hidden="false" collective="true" import="true" targetId="ced3-c4d0-55de-b57c" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="5c36-dd73-6e2a-860d" value="2.0">
@@ -1008,18 +1029,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e6-99e4-ff74-c858" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa02-3a42-18a1-fd86" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="63b3-ffaa-5779-c984" name="Leather Armour" hidden="false" collective="false" import="true" targetId="1723-8fca-033c-25cc" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="5c36-dd73-6e2a-860d" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd37-784d-1110-30c4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
